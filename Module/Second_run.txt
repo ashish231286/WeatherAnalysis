@@ -1,0 +1,201 @@
+"C:\Program Files\Java\jdk1.8.0_45\bin\java" -javaagent:D:\ideaIC-2017.3.2.win\lib\idea_rt.jar=55198:D:\ideaIC-2017.3.2.win\bin -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;D:\WeatherAnalysis\Module\target\classes;C:\Users\Admin\.m2\repository\org\scala-lang\scala-library\2.11.0\scala-library-2.11.0.jar;C:\Users\Admin\.m2\repository\org\apache\spark\spark-core_2.11\2.4.0\spark-core_2.11-2.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\avro\avro\1.8.2\avro-1.8.2.jar;C:\Users\Admin\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Admin\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Admin\.m2\repository\com\thoughtworks\paranamer\paranamer\2.7\paranamer-2.7.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;C:\Users\Admin\.m2\repository\org\tukaani\xz\1.5\xz-1.5.jar;C:\Users\Admin\.m2\repository\org\apache\avro\avro-mapred\1.8.2\avro-mapred-1.8.2-hadoop2.jar;C:\Users\Admin\.m2\repository\org\apache\avro\avro-ipc\1.8.2\avro-ipc-1.8.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Admin\.m2\repository\com\twitter\chill_2.11\0.9.3\chill_2.11-0.9.3.jar;C:\Users\Admin\.m2\repository\com\esotericsoftware\kryo-shaded\4.0.2\kryo-shaded-4.0.2.jar;C:\Users\Admin\.m2\repository\com\esotericsoftware\minlog\1.3.0\minlog-1.3.0.jar;C:\Users\Admin\.m2\repository\org\objenesis\objenesis\2.5.1\objenesis-2.5.1.jar;C:\Users\Admin\.m2\repository\com\twitter\chill-java\0.9.3\chill-java-0.9.3.jar;C:\Users\Admin\.m2\repository\org\apache\xbean\xbean-asm6-shaded\4.8\xbean-asm6-shaded-4.8.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-client\2.6.5\hadoop-client-2.6.5.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-common\2.6.5\hadoop-common-2.6.5.jar;C:\Users\Admin\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\Admin\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\Admin\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Admin\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\Admin\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\Admin\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Admin\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-auth\2.6.5\hadoop-auth-2.6.5.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Users\Admin\.m2\repository\org\apache\directory\server\apacheds-kerberos-codec\2.0.0-M15\apacheds-kerberos-codec-2.0.0-M15.jar;C:\Users\Admin\.m2\repository\org\apache\directory\server\apacheds-i18n\2.0.0-M15\apacheds-i18n-2.0.0-M15.jar;C:\Users\Admin\.m2\repository\org\apache\directory\api\api-asn1-api\1.0.0-M20\api-asn1-api-1.0.0-M20.jar;C:\Users\Admin\.m2\repository\org\apache\directory\api\api-util\1.0.0-M20\api-util-1.0.0-M20.jar;C:\Users\Admin\.m2\repository\org\apache\curator\curator-client\2.6.0\curator-client-2.6.0.jar;C:\Users\Admin\.m2\repository\org\htrace\htrace-core\3.0.4\htrace-core-3.0.4.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.6.5\hadoop-hdfs-2.6.5.jar;C:\Users\Admin\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\Admin\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\Admin\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.6.5\hadoop-mapreduce-client-app-2.6.5.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.6.5\hadoop-mapreduce-client-common-2.6.5.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-yarn-client\2.6.5\hadoop-yarn-client-2.6.5.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-yarn-server-common\2.6.5\hadoop-yarn-server-common-2.6.5.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.6.5\hadoop-mapreduce-client-shuffle-2.6.5.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-yarn-api\2.6.5\hadoop-yarn-api-2.6.5.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.6.5\hadoop-mapreduce-client-core-2.6.5.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-yarn-common\2.6.5\hadoop-yarn-common-2.6.5.jar;C:\Users\Admin\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\Admin\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Admin\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.9.13\jackson-jaxrs-1.9.13.jar;C:\Users\Admin\.m2\repository\org\codehaus\jackson\jackson-xc\1.9.13\jackson-xc-1.9.13.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.6.5\hadoop-mapreduce-client-jobclient-2.6.5.jar;C:\Users\Admin\.m2\repository\org\apache\hadoop\hadoop-annotations\2.6.5\hadoop-annotations-2.6.5.jar;C:\Users\Admin\.m2\repository\org\apache\spark\spark-launcher_2.11\2.4.0\spark-launcher_2.11-2.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\spark\spark-kvstore_2.11\2.4.0\spark-kvstore_2.11-2.4.0.jar;C:\Users\Admin\.m2\repository\org\fusesource\leveldbjni\leveldbjni-all\1.8\leveldbjni-all-1.8.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.7\jackson-core-2.6.7.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.7\jackson-annotations-2.6.7.jar;C:\Users\Admin\.m2\repository\org\apache\spark\spark-network-common_2.11\2.4.0\spark-network-common_2.11-2.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\spark\spark-network-shuffle_2.11\2.4.0\spark-network-shuffle_2.11-2.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\spark\spark-unsafe_2.11\2.4.0\spark-unsafe_2.11-2.4.0.jar;C:\Users\Admin\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Admin\.m2\repository\org\apache\curator\curator-recipes\2.6.0\curator-recipes-2.6.0.jar;C:\Users\Admin\.m2\repository\org\apache\curator\curator-framework\2.6.0\curator-framework-2.6.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\Admin\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\Admin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.4.1\commons-math3-3.4.1.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.16\slf4j-api-1.7.16.jar;C:\Users\Admin\.m2\repository\org\slf4j\jul-to-slf4j\1.7.16\jul-to-slf4j-1.7.16.jar;C:\Users\Admin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.16\jcl-over-slf4j-1.7.16.jar;C:\Users\Admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.16\slf4j-log4j12-1.7.16.jar;C:\Users\Admin\.m2\repository\com\ning\compress-lzf\1.0.3\compress-lzf-1.0.3.jar;C:\Users\Admin\.m2\repository\org\xerial\snappy\snappy-java\1.1.7.1\snappy-java-1.1.7.1.jar;C:\Users\Admin\.m2\repository\org\lz4\lz4-java\1.4.0\lz4-java-1.4.0.jar;C:\Users\Admin\.m2\repository\com\github\luben\zstd-jni\1.3.2-2\zstd-jni-1.3.2-2.jar;C:\Users\Admin\.m2\repository\org\roaringbitmap\RoaringBitmap\0.5.11\RoaringBitmap-0.5.11.jar;C:\Users\Admin\.m2\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;C:\Users\Admin\.m2\repository\org\json4s\json4s-jackson_2.11\3.5.3\json4s-jackson_2.11-3.5.3.jar;C:\Users\Admin\.m2\repository\org\json4s\json4s-core_2.11\3.5.3\json4s-core_2.11-3.5.3.jar;C:\Users\Admin\.m2\repository\org\json4s\json4s-ast_2.11\3.5.3\json4s-ast_2.11-3.5.3.jar;C:\Users\Admin\.m2\repository\org\json4s\json4s-scalap_2.11\3.5.3\json4s-scalap_2.11-3.5.3.jar;C:\Users\Admin\.m2\repository\org\scala-lang\modules\scala-xml_2.11\1.0.6\scala-xml_2.11-1.0.6.jar;C:\Users\Admin\.m2\repository\org\glassfish\jersey\core\jersey-client\2.22.2\jersey-client-2.22.2.jar;C:\Users\Admin\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\Admin\.m2\repository\org\glassfish\hk2\hk2-api\2.4.0-b34\hk2-api-2.4.0-b34.jar;C:\Users\Admin\.m2\repository\org\glassfish\hk2\hk2-utils\2.4.0-b34\hk2-utils-2.4.0-b34.jar;C:\Users\Admin\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.4.0-b34\aopalliance-repackaged-2.4.0-b34.jar;C:\Users\Admin\.m2\repository\org\glassfish\hk2\external\javax.inject\2.4.0-b34\javax.inject-2.4.0-b34.jar;C:\Users\Admin\.m2\repository\org\glassfish\hk2\hk2-locator\2.4.0-b34\hk2-locator-2.4.0-b34.jar;C:\Users\Admin\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\Admin\.m2\repository\org\glassfish\jersey\core\jersey-common\2.22.2\jersey-common-2.22.2.jar;C:\Users\Admin\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\Admin\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.22.2\jersey-guava-2.22.2.jar;C:\Users\Admin\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar;C:\Users\Admin\.m2\repository\org\glassfish\jersey\core\jersey-server\2.22.2\jersey-server-2.22.2.jar;C:\Users\Admin\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.22.2\jersey-media-jaxb-2.22.2.jar;C:\Users\Admin\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Admin\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.22.2\jersey-container-servlet-2.22.2.jar;C:\Users\Admin\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.22.2\jersey-container-servlet-core-2.22.2.jar;C:\Users\Admin\.m2\repository\io\netty\netty-all\4.1.17.Final\netty-all-4.1.17.Final.jar;C:\Users\Admin\.m2\repository\io\netty\netty\3.9.9.Final\netty-3.9.9.Final.jar;C:\Users\Admin\.m2\repository\com\clearspring\analytics\stream\2.7.0\stream-2.7.0.jar;C:\Users\Admin\.m2\repository\io\dropwizard\metrics\metrics-core\3.1.5\metrics-core-3.1.5.jar;C:\Users\Admin\.m2\repository\io\dropwizard\metrics\metrics-jvm\3.1.5\metrics-jvm-3.1.5.jar;C:\Users\Admin\.m2\repository\io\dropwizard\metrics\metrics-json\3.1.5\metrics-json-3.1.5.jar;C:\Users\Admin\.m2\repository\io\dropwizard\metrics\metrics-graphite\3.1.5\metrics-graphite-3.1.5.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.7.1\jackson-databind-2.6.7.1.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\module\jackson-module-scala_2.11\2.6.7.1\jackson-module-scala_2.11-2.6.7.1.jar;C:\Users\Admin\.m2\repository\org\scala-lang\scala-reflect\2.11.8\scala-reflect-2.11.8.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\module\jackson-module-paranamer\2.7.9\jackson-module-paranamer-2.7.9.jar;C:\Users\Admin\.m2\repository\org\apache\ivy\ivy\2.4.0\ivy-2.4.0.jar;C:\Users\Admin\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\Admin\.m2\repository\net\razorvine\pyrolite\4.13\pyrolite-4.13.jar;C:\Users\Admin\.m2\repository\net\sf\py4j\py4j\0.10.7\py4j-0.10.7.jar;C:\Users\Admin\.m2\repository\org\apache\spark\spark-tags_2.11\2.4.0\spark-tags_2.11-2.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-crypto\1.0.0\commons-crypto-1.0.0.jar;C:\Users\Admin\.m2\repository\org\spark-project\spark\unused\1.0.0\unused-1.0.0.jar;C:\Users\Admin\.m2\repository\org\apache\spark\spark-sql_2.11\2.4.0\spark-sql_2.11-2.4.0.jar;C:\Users\Admin\.m2\repository\com\univocity\univocity-parsers\2.7.3\univocity-parsers-2.7.3.jar;C:\Users\Admin\.m2\repository\org\apache\spark\spark-sketch_2.11\2.4.0\spark-sketch_2.11-2.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.4.0\spark-catalyst_2.11-2.4.0.jar;C:\Users\Admin\.m2\repository\org\scala-lang\modules\scala-parser-combinators_2.11\1.1.0\scala-parser-combinators_2.11-1.1.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\janino\janino\3.0.9\janino-3.0.9.jar;C:\Users\Admin\.m2\repository\org\codehaus\janino\commons-compiler\3.0.9\commons-compiler-3.0.9.jar;C:\Users\Admin\.m2\repository\org\antlr\antlr4-runtime\4.7\antlr4-runtime-4.7.jar;C:\Users\Admin\.m2\repository\org\apache\orc\orc-core\1.5.2\orc-core-1.5.2-nohive.jar;C:\Users\Admin\.m2\repository\org\apache\orc\orc-shims\1.5.2\orc-shims-1.5.2.jar;C:\Users\Admin\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\Admin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Admin\.m2\repository\io\airlift\aircompressor\0.10\aircompressor-0.10.jar;C:\Users\Admin\.m2\repository\org\apache\orc\orc-mapreduce\1.5.2\orc-mapreduce-1.5.2-nohive.jar;C:\Users\Admin\.m2\repository\org\apache\parquet\parquet-column\1.10.0\parquet-column-1.10.0.jar;C:\Users\Admin\.m2\repository\org\apache\parquet\parquet-common\1.10.0\parquet-common-1.10.0.jar;C:\Users\Admin\.m2\repository\org\apache\parquet\parquet-encoding\1.10.0\parquet-encoding-1.10.0.jar;C:\Users\Admin\.m2\repository\org\apache\parquet\parquet-hadoop\1.10.0\parquet-hadoop-1.10.0.jar;C:\Users\Admin\.m2\repository\org\apache\parquet\parquet-format\2.4.0\parquet-format-2.4.0.jar;C:\Users\Admin\.m2\repository\org\apache\parquet\parquet-jackson\1.10.0\parquet-jackson-1.10.0.jar;C:\Users\Admin\.m2\repository\org\apache\arrow\arrow-vector\0.10.0\arrow-vector-0.10.0.jar;C:\Users\Admin\.m2\repository\org\apache\arrow\arrow-format\0.10.0\arrow-format-0.10.0.jar;C:\Users\Admin\.m2\repository\org\apache\arrow\arrow-memory\0.10.0\arrow-memory-0.10.0.jar;C:\Users\Admin\.m2\repository\joda-time\joda-time\2.9.9\joda-time-2.9.9.jar;C:\Users\Admin\.m2\repository\com\carrotsearch\hppc\0.7.2\hppc-0.7.2.jar;C:\Users\Admin\.m2\repository\com\vlkan\flatbuffers\1.2.0-3f79e055\flatbuffers-1.2.0-3f79e055.jar" HistoricalWeatherAnalysis
+Total Data Create time :11 secs. Total No of List Elements :37189
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+19/02/20 02:49:57 INFO SparkContext: Running Spark version 2.4.0
+19/02/20 02:49:58 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/02/20 02:49:58 INFO SparkContext: Submitted application: UK Historical Weather Data Analysis
+19/02/20 02:49:58 INFO SecurityManager: Changing view acls to: Admin
+19/02/20 02:49:58 INFO SecurityManager: Changing modify acls to: Admin
+19/02/20 02:49:58 INFO SecurityManager: Changing view acls groups to: 
+19/02/20 02:49:58 INFO SecurityManager: Changing modify acls groups to: 
+19/02/20 02:49:58 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Admin); groups with view permissions: Set(); users  with modify permissions: Set(Admin); groups with modify permissions: Set()
+19/02/20 02:50:01 INFO Utils: Successfully started service 'sparkDriver' on port 55221.
+19/02/20 02:50:01 INFO SparkEnv: Registering MapOutputTracker
+19/02/20 02:50:01 INFO SparkEnv: Registering BlockManagerMaster
+19/02/20 02:50:01 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+19/02/20 02:50:01 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+19/02/20 02:50:01 INFO DiskBlockManager: Created local directory at C:\Users\Admin\AppData\Local\Temp\blockmgr-0dda7e11-93ea-4749-bc35-cc8cff1b8d10
+19/02/20 02:50:02 INFO MemoryStore: MemoryStore started with capacity 885.6 MB
+19/02/20 02:50:02 INFO SparkEnv: Registering OutputCommitCoordinator
+19/02/20 02:50:03 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+19/02/20 02:50:03 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://Admin-PC:4040
+19/02/20 02:50:04 INFO Executor: Starting executor ID driver on host localhost
+19/02/20 02:50:06 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 55242.
+19/02/20 02:50:06 INFO NettyBlockTransferService: Server created on Admin-PC:55242
+19/02/20 02:50:06 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+19/02/20 02:50:06 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, Admin-PC, 55242, None)
+19/02/20 02:50:06 INFO BlockManagerMasterEndpoint: Registering block manager Admin-PC:55242 with 885.6 MB RAM, BlockManagerId(driver, Admin-PC, 55242, None)
+19/02/20 02:50:06 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, Admin-PC, 55242, None)
+19/02/20 02:50:06 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, Admin-PC, 55242, None)
+No of Data Frame Rdd Partitions 4
++---------------+----+----+
+|   station_name| cnt|rank|
++---------------+----+----+
+|         oxford|1993|   1|
+|         armagh|1993|   1|
+|      stornoway|1747|   2|
+|    southampton|1743|   3|
+|         durham|1669|   4|
+|      sheffield|1633|   5|
+|       bradford|1333|   6|
+|    eskdalemuir|1297|   7|
+|    wickairport|1261|   8|
+|      lowestoft|1249|   9|
+|          tiree|1093|  10|
+|      rossonwye|1058|  11|
+|        lerwick|1058|  11|
+|         valley|1058|  11|
+|          nairn|1057|  12|
+|      aberporth| 937|  13|
+|        manston| 931|  14|
+|       shawbury| 877|  15|
+|     waddington| 865|  16|
+|       heathrow| 853|  17|
+|       chivenor| 757|  18|
+|           hurn| 745|  19|
+|       leuchars| 745|  19|
+|suttonbonington| 721|  20|
+|        braemar| 721|  20|
+|      cambridge| 721|  20|
+|     eastbourne| 721|  20|
+|     newtonrigg| 721|  20|
+|        paisley| 721|  20|
+|        ringway| 706|  21|
+|   ballypatrick| 691|  22|
+|         whitby| 689|  23|
+|      yeovilton| 653|  24|
+|     cwmystwyth| 618|  25|
+|   dunstaffnage| 572|  26|
+|        cardiff| 497|  27|
+|       camborne| 485|  28|
++---------------+----+----+
+
++---------------+------------------+------------------+--------------+--------------+
+|   station_name|           rain_mm|         sun_hours|rank_rain_fall|rank_sun_hours|
++---------------+------------------+------------------+--------------+--------------+
+|      stornoway|174656.80005013943|109316.70000457764|             1|            15|
+|    eskdalemuir| 173985.7001836896| 105497.2000131607|             2|            17|
+|         armagh|136932.00008797646|110716.60007095337|             3|            13|
+|    southampton|115881.49997103214|159733.99997520447|             4|             1|
+|         oxford| 108995.9000121355|138429.49991226196|             5|             5|
+|      sheffield|108722.59997236729|120100.10000705719|             6|             9|
+|          tiree|104450.50006580353|128680.50008058548|             7|             8|
+|        lerwick|102320.80003923178| 94640.29996776581|             8|            20|
+|       bradford| 94047.60000014305|138336.00001740456|             9|             6|
+|         durham| 90724.19997739792| 146785.7000632286|            10|             3|
+|     cwmystwyth| 88165.30007362366|56562.399926662445|            11|            29|
+|    wickairport| 82166.99993932247| 61039.59986972809|            12|            28|
+|   dunstaffnage| 77445.99983477592|22579.500025749207|            13|            37|
+|         valley|  75188.5999186039|140675.50005626678|            14|             4|
+|        paisley| 71554.99990606308| 76309.39995574951|            15|            25|
+|      aberporth| 71085.90000587702|119318.99989795685|            16|            10|
+|      rossonwye| 63191.30002832413|131413.80011177063|            17|             7|
+|      lowestoft|59615.800023153424|  148275.800157547|            18|             2|
+|          nairn|55257.399985313416| 111253.6999206543|            19|            12|
+|     newtonrigg| 54370.40012431145|29956.499977111816|            20|            35|
+|       chivenor| 53824.29997766018| 33124.00000190735|            21|            33|
+|        braemar| 52366.20003986359| 54342.60008430481|            22|            31|
+|           hurn| 51949.40000322461| 84658.79993057251|            23|            22|
+|       shawbury| 48587.19995236397|100766.39993667603|            24|            18|
+|     eastbourne|47967.900056660175|111683.19991493225|            25|            11|
+|        cardiff| 47910.09997653961| 27552.99995994568|            26|            36|
+|        manston| 44730.39994999766|107670.00001907349|            27|            16|
+|     waddington|  43554.3000099659|110406.39998626709|            28|            14|
+|       camborne| 43409.10007238388| 64432.10004043579|            29|            27|
+|       heathrow| 42993.40001258254| 96180.90001106262|            30|            19|
+|       leuchars| 42310.79994893074| 92401.30002307892|            31|            21|
+|   ballypatrick|39612.600069999695| 32852.39994430542|            32|            34|
+|      yeovilton| 39491.70000517368|  53721.3000869751|            33|            32|
+|        ringway| 35711.70006608963| 81066.40006256104|            34|            23|
+|suttonbonington| 35437.49995613098| 56308.19997215271|            35|            30|
+|         whitby| 33394.19993209839| 66721.59992313385|            36|            26|
+|      cambridge| 32116.20005041361| 77250.00020599365|            37|            24|
++---------------+------------------+------------------+--------------+--------------+
+
++---------------+----+------------------+------------------+
+|   station_name|year|           rain_mm|         sun_hours|
++---------------+----+------------------+------------------+
+|      aberporth|1955| 787.7999925613403| 1919.400032043457|
+|      aberporth|2019| 53.79999923706055|31.899999618530273|
+|       bradford|2019|22.600000381469727|45.099998474121094|
+|       bradford|1995|  646.899998664856|1536.8999938964844|
+|         durham|1989| 415.8999967575073| 1655.499984741211|
+|           hurn|1989| 779.9999914169312|            1995.0|
+|           hurn|2019| 38.79999923706055|60.599998474121094|
+|      lowestoft|2019|              38.0| 58.79999923706055|
+|      lowestoft|2018|  568.799994468689|1955.1999969482422|
+|          nairn|2018|  501.300012588501|1724.3999938964844|
+|          nairn|2019|40.599998474121094|              48.0|
+|         oxford|1995| 683.4000034332275| 1880.300006866455|
+|         oxford|2019|25.399999618530273| 55.29999923706055|
+|      rossonwye|1995| 679.4999990463257|1854.9999923706055|
+|      rossonwye|2019|              20.0|46.099998474121094|
+|      stornoway|1968|             800.0|1420.3000049591064|
+|      stornoway|2019| 121.4000015258789|38.599998474121094|
+|suttonbonington|1989| 614.2000026702881|1668.4999895095825|
+|suttonbonington|1964| 446.0999994277954|1354.2000007629395|
+|     waddington|2019|19.600000381469727|57.099998474121094|
+|     waddington|2003| 516.3000049591064|1926.0999946594238|
+|    wickairport|1993| 502.1000003814697| 759.3000068664551|
+|    wickairport|1989| 603.9999942779541|1493.1999969482422|
+|         armagh|2019|24.600000381469727| 39.29999923706055|
+|         armagh|1959| 747.6000061035156|1512.3000030517578|
+|   ballypatrick|1989|1055.6999893188477|1405.8999862670898|
+|   ballypatrick|1988|             163.5| 88.89999961853027|
+|        braemar|1989| 778.4000034332275|1381.4000186920166|
+|        braemar|2005| 336.5999984741211|290.80000495910645|
+|      cambridge|2010|209.89999771118164| 879.8999977111816|
+|      cambridge|2003| 471.3000068664551|1764.3000221252441|
+|   dunstaffnage|1981| 744.5999984741211|237.60000038146973|
+|   dunstaffnage|1995|1502.6000175476074| 1374.099998474121|
+|     eastbourne|2003| 638.3000078201294|2161.5000038146973|
+|     eastbourne|2019|              30.5| 68.30000305175781|
+|        lerwick|1930| 122.4000015258789|13.100000381469727|
+|        lerwick|1955| 815.7999973297119|1346.9999885559082|
+|     newtonrigg|1964| 694.2000026702881|1293.7999877929688|
+|     newtonrigg|1975| 752.3999996185303|1525.0000019073486|
+|        paisley|1995|1241.1999950408936|1515.6999855041504|
+|        paisley|2019| 52.20000076293945|55.900001525878906|
+|       shawbury|1995| 601.9000053405762|1792.3000183105469|
+|       shawbury|2019| 35.20000076293945| 36.29999923706055|
+|    southampton|1949| 681.7999954223633|  2055.60001373291|
+|    southampton|1941|318.69999504089355| 834.0999908447266|
+|       camborne|1989| 955.2999992370605| 1924.000015258789|
+|       camborne|2019| 78.80000305175781|25.399999618530273|
+|        cardiff|1995|1064.7999982833862|1849.0999870300293|
+|        cardiff|1996|219.10000610351562|197.79999542236328|
+|       chivenor|1955| 763.9999957084656|1951.8000259399414|
+|       chivenor|1964| 573.8000049591064|1539.3999977111816|
+|    eskdalemuir|1955|1121.3000030517578|1533.4999923706055|
+|    eskdalemuir|2019| 65.19999694824219| 67.19999694824219|
+|       heathrow|2019| 33.20000076293945|56.400001525878906|
+|       heathrow|2003|475.49999809265137|2003.4999771118164|
+|       leuchars|1995| 682.8000078201294|1785.9000205993652|
+|       leuchars|2019| 9.800000190734863|  77.0999984741211|
+|        manston|2003| 527.4000005722046| 2202.300003051758|
+|        manston|2019|29.399999618530273|  67.9000015258789|
+|        ringway|1995| 645.1999969482422|1741.9999923706055|
+|        ringway|1991| 578.9000043869019| 1335.700008392334|
+|      sheffield|2019|27.399999618530273|              48.5|
+|      sheffield|1989| 737.1000080108643|1724.8999843597412|
+|          tiree|2000|1281.3999996185303| 1658.600025177002|
+|          tiree|2019| 75.80000305175781|29.899999618530273|
+|      yeovilton|1990| 614.3000020980835|1757.8000144958496|
+|      yeovilton|2019| 33.79999923706055| 53.20000076293945|
+|     cwmystwyth|1962|190.60000610351562|266.09999084472656|
+|     cwmystwyth|1975|1488.8999919891357|1441.6999883651733|
+|         valley|2019| 38.20000076293945| 34.79999923706055|
+|         valley|1975| 717.6000003814697|1899.3000183105469|
+|         whitby|2003| 568.4000034332275|1904.0999908447266|
+|         whitby|2019|              34.5|  69.0999984741211|
++---------------+----+------------------+------------------+
+
++----+-----------------+--------------------+--------------------+
+|year|    avg_sun_hours|max_avg_yr_sun_hours|min_avg_yr_sun_hours|
++----+-----------------+--------------------+--------------------+
+|1909|255.1666717529297|   255.1666717529297|   128.4911761564367|
+|1983|128.4911761564367|   255.1666717529297|   128.4911761564367|
++----+-----------------+--------------------+--------------------+
+
+
+Process finished with exit code 0

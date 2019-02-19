@@ -1,0 +1,17 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="RIGHT_MARGIN" value="80" />
+    <HoconCodeStyleSettings>
+      <option name="LISTS_ALIGN_WHEN_MULTILINE" value="true" />
+      <option name="KEEP_BLANK_LINES_IN_LISTS" value="0" />
+      <option name="KEEP_BLANK_LINES_BEFORE_RBRACKET" value="0" />
+    </HoconCodeStyleSettings>
+    <codeStyleSettings language="HOCON">
+      <indentOptions>
+        <option name="USE_TAB_CHARACTER" value="true" />
+        <option name="SMART_TABS" value="true" />
+        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
+      </indentOptions>
+    </codeStyleSettings>
+  </code_scheme>
+</component>
